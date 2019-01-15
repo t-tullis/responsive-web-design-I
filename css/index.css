@@ -82,8 +82,7 @@ h1, h2, h3, h4, h5 {
 /* Mobile */
 @media(max-width: 500px){
   .container{
-    max-width: 500px;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -224,6 +223,12 @@ header .logo {
   }
 }
 
+@media(max-width: 500px){
+  section{
+    margin: 0 5%;
+  }
+}
+
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
@@ -263,7 +268,6 @@ header .logo {
     width: 425px;
   }
 }
-
 
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
@@ -341,6 +345,11 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+
+/* Tablet Design */
+
+
 
 
 
